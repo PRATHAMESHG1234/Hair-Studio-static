@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#banner{
+  background: linear-gradient(rgba(0,0,0,0.5),#009688), url(./assets//images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+#features{
+  width: 100%;
+  padding: 70px 0;
+}
+
+#service{
+  width: 100%;
+  padding: 70px 0;
+  background: #efefef;
+}
+
+#testimonial{
+  width: 100%;
+  padding: 70px 0;
+}
+
+#footer{
+  padding: 100px 0 20px;
+   background: #efefef;
+   position: relative;
+}
