@@ -19,10 +19,10 @@ const Home = () => {
         <p>StylwYour Heir Is Style Your Life</p>
         <div className='banner-btn'>
           {' '}
-          <a href='#'>
+          <a href='#footer'>
             <span></span> Find Out
           </a>
-          <a href='#'>
+          <a href='#service'>
             <span></span> Read
           </a>
         </div>
