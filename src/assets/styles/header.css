@@ -35,8 +35,7 @@
 }
 
   .navbar a.active {
-    background-color: #4CAF50;
-    color: white;
+    color: #009688;
   }
   
   .footer {
