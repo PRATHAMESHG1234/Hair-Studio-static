@@ -1,15 +1,19 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
 import '../assets/styles/home.css';
+import Header from './Header';
 
 const Home = () => {
   return (
     <>
-      <img
-        className='logo'
-        src={logo}
-        alt='logo'
-      />
+      <div className='navbar'>
+        <img
+          className='logo'
+          src={logo}
+          alt='logo'
+        />
+        <Header />
+      </div>
       <div className='banner-text'>
         <h1>Hair Studio </h1>
         <p>StylwYour Heir Is Style Your Life</p>

@@ -1,0 +1,52 @@
+.navbar {
+    background-color:none;
+    overflow: hidden;
+    width: 90%;
+  }
+  
+  .navbar a {
+    margin-top: 30px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
+    transition: color 0.5s;
+  }
+  
+  .navbar a:hover {
+    color: black;
+  }
+  .navbar a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%; 
+}
+
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width:770px) {
+    .navbar{
+        width: 100%;
+    }
+  }

@@ -62,5 +62,7 @@ color: #000;
         display: block;
         margin: 20px auto;
     }
-
+.logo{
+    left: 5%;
+}
 }
